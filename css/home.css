@@ -1,0 +1,142 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+.in-box{
+	height: 200px;
+	width: 200px;
+	background-color: #99d8ca;
+	border: 4px solid #0d1430;
+	border-radius: 3%;
+	box-shadow: inset 0 0 0 10px #5873e2;
+}
+.outline{
+	height: auto;
+	width: auto;
+	border: 10px solid #90ffa9;
+	border-radius: 10%;
+	margin: 10px;
+	display: inline-block;
+}
+.c1{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #99d8ca;
+	display: inline-block;
+}
+.c2{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #0d1430;
+	display: inline-block;
+}
+.c3{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #90ffa9;
+	display: inline-block;
+}
+.c4{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #5873e2;
+	display: inline-block;
+}
+.text{
+	font-size: 20px;
+	margin: 10px;
+}
+.box1{
+	width: auto;
+	height: auto;
+	border-bottom: dotted black 2px;
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+.circle-container{
+	margin: 10px;
+}
+.outbox{
+	height: auto;
+	width: 690px;
+	border: 2px solid black;
+	display: inline-block;
+	margin: 10px;
+}
+.outbox .block{
+	width: 200px;
+	height: 180px;
+	margin: 10px;
+	background-color: #E2E2E2;
+	display: inline-block;
+}
+.box2{
+	width: auto;
+	height: auto;
+	border-bottom: black dotted 2px;
+	margin: 10px;
+	text-align: center;
+}
+.outbox .brick{
+	width: 200px;
+	height: 180px;
+	background-color: #e2e2e2;
+	border: solid 2px black;
+	margin: 10px;
+	display: inline-block;
+}
+h1{
+	font-size: 24px;
+}
+h2{
+	font-size: 18px;
+}
+header{
+	height: 50px;
+	width: auto;
+	background-color: #32325D;
+	padding: 10px;
+	
+}
+body{
+	width: auto;
+	height: auto;
+	text-align: center;
+	margin: 10px;
+}
+.a1{
+	text-align: center;
+	color: #5EBB78;
+	text-decoration: none;
+}
+.a2{
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
